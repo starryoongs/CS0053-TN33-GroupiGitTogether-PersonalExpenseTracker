@@ -4,7 +4,8 @@
 #include <string>
 using namespace std;
 
-struct Expense {
+struct Expense
+{
     int id = 0;
     string date;
     string category;
@@ -12,4 +13,4 @@ struct Expense {
     long long amountCentavos = 0;
 };
 
-#endif 
+#endif

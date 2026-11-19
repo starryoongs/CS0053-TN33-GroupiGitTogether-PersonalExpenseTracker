@@ -44,7 +44,7 @@ int main() {
             << "[5] Delete expense\n"
             << "[6] Spending summary\n"
             << "---------------------------------"
-            << "[0] Exit\n"
+            << "\n[0] Exit\n"
             << "========================================\n"
             << "Choose an option: ";
 
