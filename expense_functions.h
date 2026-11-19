@@ -7,8 +7,6 @@
 #include <vector>
 using namespace std;
 
-void viewExpenses(const vector<Expense> &expenses);
-
 // Member 1: expense_view.cpp
 void viewExpenses(const vector<Expense> &expenses);
 
