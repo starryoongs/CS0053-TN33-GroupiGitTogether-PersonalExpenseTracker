@@ -107,6 +107,13 @@ bool addExpense(vector<Expense> &expenses)
     cout << "Enter description: ";
     getline(cin, newExpense.description);
 
+    if (newExpense.description.find_first_not_of(" \t\r\n") == string::npos ||
+    newExpense.description.find(',') != string::npos)
+    {
+    cout << "Invalid description. It cannot be empty or contain commas.\n";
+    return false;
+    }
+
     double amount;
 
     cout << "Enter amount: PHP ";
