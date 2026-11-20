@@ -1,0 +1,41 @@
+# C++ build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.pdb
+*.ilk
+
+# Build directories and CMake output
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
+*.bak
+*~
+
+# Local editor settings
+.vs/
+.idea/
+*.user
+*.suo
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
